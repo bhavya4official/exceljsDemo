@@ -1,0 +1,18 @@
+{
+  "name": "exceljsutil",
+  "version": "1.0.0",
+  "description": "excelJS node module intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "excelJS"
+  },
+  "author": "bhavya",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
