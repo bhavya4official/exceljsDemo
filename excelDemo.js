@@ -14,8 +14,8 @@ workbook.xlsx.readFile("resources/excelTest.xlsx").then(function () {  // Handel
 
 // Another way - by using await
 async function excelTest() {
-    const workbook = new excel.Workbook(); // Creating new object of exceljs class & invoking its method | It hold collection of sheets
-    await workbook.xlsx.readFile("resources/excelTest.xlsx");  // Wait until this operation is completed then proceed to next
+    const workbook = new excel.Workbook();
+    await workbook.xlsx.readFile("resources/excelTest.xlsx");
     const worksheet = workbook.getWorksheet('Sheet1'); // It hold details of entire worksheet
 
     worksheet.eachRow((row, rowNumber) => { // Outer loop
