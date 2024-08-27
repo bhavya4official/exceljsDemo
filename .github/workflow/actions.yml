@@ -3,6 +3,8 @@ run-name: ${{github.actor}} is testing ExcelJS package
 on:
   push:
     branches: [main, bhavya]
+  pull_request:
+    branches: [main, bhavya]
 jobs:
   Test-ExcelJS:
     runs-on: ubuntu-latest
