@@ -4,7 +4,7 @@
   "description": "excelJS node module intro",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "smoke": "node excelDemo.js"
   },
   "repository": {
     "type": "git",

@@ -20,6 +20,8 @@ jobs:
       - run: echo "🧪 The workflow is now ready to test your code on the runner."
       - name: List files in the repository
         run: ls ${{github.workspace}}
+      - name: Clean Install npm with dependencies
+        run: npm ci
       - name: Test excelDemo.js file
         run: node excelDemo.js
       - run: echo "🎉 This job's status is ${{job.status}}."
