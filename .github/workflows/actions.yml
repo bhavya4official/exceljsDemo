@@ -23,5 +23,5 @@ jobs:
       - name: Clean Install npm with dependencies
         run: npm ci
       - name: Test excelDemo.js file
-        run: node excelDemo.js
+        run: npm run smoke
       - run: echo "🎉 This job's status is ${{job.status}}."

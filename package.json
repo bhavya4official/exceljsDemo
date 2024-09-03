@@ -4,7 +4,7 @@
   "description": "excelJS node module intro",
   "main": "index.js",
   "scripts": {
-    "smoke": "node excelDemo.js"
+    "smoke": "node tests/excelDemo.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,11 @@
   "author": "bhavya",
   "license": "ISC",
   "dependencies": {
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "playwright": "^1.46.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.1"
   }
 }
